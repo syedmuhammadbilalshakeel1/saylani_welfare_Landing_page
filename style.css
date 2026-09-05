@@ -1,0 +1,1550 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.fonttext {
+  font-family: poppins;
+}
+header {
+  /* border: 2px solid pink; */
+}
+nav {
+  /* border: 4px solid purple; */
+}
+header > nav > ul {
+  display: flex;
+  /* border: 1px solid red; */
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+.uppaernav::after {
+  content: "";
+  display: block;
+  width: 85%;
+  height: 2px;
+  background: lab(90.952% 0 -0.0000119209);
+  /* margin-top: 3px; */
+  margin: auto;
+  border-radius: 5px;
+}
+ul > li > i {
+  padding-right: 25px;
+  /* border: 1px solid black; */
+
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+li {
+  font-family: sans-serif;
+  color: lab(66.128% -0.0000298023 0.0000119209);
+}
+.coloricon {
+  color: lab(66.128% -0.0000298023 0.0000119209);
+}
+.logo {
+  width: 176px;
+  height: 44.46px;
+  /* 384 × 97 px */
+}
+ul > li > button {
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+.sponser {
+  background-color: #024d9a;
+}
+.donar {
+  background-color: #61bb46;
+}
+#pagessection > li {
+  margin: 16px 10px;
+  /* border: 1px solid pink; */
+}
+/* herosection */
+section {
+  display: flex;
+  /* border: 1px solid blue; */
+  /* height: 100vh; */
+  background-color: #f9fdf8;
+}
+section > .right {
+  /* border: 1px solid red; */
+  width: 50%;
+  margin-left: 56px;
+  font-family: "Poppins";
+}
+section > .right > .welfare {
+  margin: 25px 0px;
+  background-color: OKLAB(0.71128 -0.133634 0.115555 / 0.1);
+  width: 50%;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: #61bb46;
+}
+section > .right > .hdeading {
+  font-size: 33px;
+  line-height: 70px;
+}
+.welfarename {
+  color: #61bb46;
+  /* border: 1px solid red; */
+}
+section > .right > .hdeading svg {
+  width: 20%;
+  position: absolute;
+  left: 210px;
+  top: 330px;
+  /* border: 1px solid red; */
+}
+section > .right > .paragraph {
+  padding: 10px 0px;
+  /* border: 1px solid red; */
+  width: 70%;
+  color: #737373;
+  font-size: 20px;
+}
+section > .right > .buttons {
+  /* border: 1px solid red; */
+  padding: 20px 0px;
+}
+section > .right > .buttons > button {
+  /* border: 1px solid red; */
+  padding: 20px 30px;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-weight: bolder;
+}
+.donation1 {
+  color: LAB(98.26 0 0);
+  background: linear-gradient(90deg, #61bb46, #378e1d);
+  border: none;
+}
+.learnmore {
+  color: #61bb46;
+  background-color: white;
+  /* border: none; */
+  border-color: rgb(12, 11, 11);
+}
+section > .left {
+  margin: 27px 30px;
+  /* width: 50%; */
+  /* display: flex; */
+}
+section > .left > .backgroundimage > img {
+  width: 100%;
+  height: 90vh;
+}
+section > .left > .imagecontexting {
+  position: absolute;
+  /* right: 30px; */
+  top: 500px;
+  right: 110px;
+  width: 33%;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #f5efee;
+  opacity: 0.9;
+  font-family: "Poppins";
+}
+.imagecontexting {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number > h1 {
+  color: rgb(97, 187, 70);
+  /* opacity: none; */
+}
+.number > p {
+  color: #737373;
+}
+
+.icons {
+  background-color: #61bb46;
+  padding: 13px 17px;
+  border-radius: 10px;
+}
+.icons > svg {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+/* after hero section */
+.main {
+  /* border: 2px solid red; */
+}
+.main > .maincontain {
+  /* border: 1px solid red; */
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main > .maincontain > .invitation {
+  /* border: 2px solid pink; */
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: OKLAB(0.71128 -0.133634 0.115555 / 0.8);
+  font-weight: bold;
+  background-color: lab(94.9004 -17.0769 5.63836);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.heading {
+  font-size: 23px;
+  color: black;
+}
+.appealsconetnt1 {
+  color: RGB(97, 187, 70);
+}
+.paragraphinvite {
+  color: LAB(47.7841 -0.393182 -10.0268);
+  /* border: 2px solid rebeccapurple; */
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main {
+  margin-bottom: 50px;
+}
+.main > .maincard {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.maincard > .cardimageorcontext {
+  /* border: 1px solid pink; */
+  width: 19%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cardimageorcontext > .image > img {
+  width: 220px;
+  height: 240px;
+  border-radius: 20px;
+}
+.cardimageorcontext > .hearticon > i {
+  /* border: 2px solid red; */
+  width: 50px;
+  /* height: 50px; */
+  background-color: white;
+  color: #61bb46;
+  /* padding: 10px 10px; */
+  padding: 16px;
+  position: absolute;
+  top: 1220px;
+  margin-left: 20px;
+  border-radius: 16px;
+}
+
+.cardimageorcontext > .headingmaincontext {
+  font-size: 11px;
+  margin: 10px 0px;
+}
+.cardimageorcontext > .paragraghmaincontext {
+  font-size: 14px;
+  margin: 10px 0px;
+  color: #737373;
+}
+.cardimageorcontext > .link > a {
+  color: #61bb46;
+  text-decoration: none;
+}
+
+.quickdonatemain > .quickdonatemaincontainer {
+  text-align: center;
+}
+
+.quickdonatemain > .quickdonatemaincontainer > .heading12 {
+  font-size: 22px;
+  margin: 10px 0px;
+}
+
+.quickdonatemain
+  > .quickdonatemaincontainer
+  > .heading12
+  > h1
+  > .appealsconetnt112 {
+  color: #61bb46;
+}
+.quickdonatemain > .quickdonatemaincontainer > .paragraphquick {
+  font-size: 14px;
+  margin: 10px 0px;
+  color: #737373;
+}
+.quickdonatemain > .quickdonatemaincontainer > .buttonquick > button {
+  padding: 6px 12px;
+  margin-left: 4px;
+  /* margin-bottom: 19px; */
+  border-radius: 20px;
+  border: none;
+  background-color: #61bb46;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.quickdonatemain > .quickdonatemaincontainer > .buttonquick {
+  margin: 20px;
+}
+.quickdonatemain > .backgroundimagequick {
+  display: flex;
+  justify-content: center;
+
+  gap: 18px;
+  width: 100%;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+.backgroundimagequick > .sadqat {
+  width: 40%;
+  /* border: 1px solid purple; */
+  height: 51vh;
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url("./image/sadqa-animal-cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  position: relative;
+  background-size: 100%;
+}
+.backgroundimagequick > .fitra {
+  background-image:
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url("./image/fitra-fidya-kaffara-cover.png");
+}
+.backgroundimagequick > .sadqat > .sadqacontext {
+  color: white;
+  margin-bottom: 13px;
+  margin-left: 13px;
+  width: 60%;
+  /* border: 1px solid red; */
+}
+
+.backgroundimagequick > .sadqat > .contexing > button {
+  margin-bottom: 19px;
+  margin-left: 50px;
+  padding: 10px 20px;
+  color: #61bb46;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  font-weight: bolder;
+}
+.backgroundimagequick > .sadqat > .sadqabutton {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  /* border: 2px solid rebeccapurple; */
+}
+.backgroundimagequick > .sadqat > .sadqabutton > button {
+  padding: 1px 7px;
+  border-radius: 30px;
+  background-color: #61bb46;
+  color: white;
+  font-weight: bold;
+}
+
+.quickdonatemain > .donatebuttonfoe {
+  text-align: center;
+  margin: 30px 0px;
+  /* border: 1px solid red; */
+}
+.quickdonatemain > .donatebuttonfoe > button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  font-weight: bolder;
+  background-color: #61bb46;
+  color: white;
+  font-size: 20px;
+}
+/* next section */
+.numbercrad {
+  /* border: 1px solid pink; */
+  background: linear-gradient(135deg, #5cb838, #46bc22, #3d9722);
+  background-color: linear-gradient(
+    135deg,
+    #3fa142 0%,
+    #6fc634 50%,
+    #8bd63c 100%
+  );
+  background: linear-gradient(135deg, #3fa142 0%, #6fc634 50%, #8bd63c 100%);
+}
+.numbercrad > .ourimpact {
+  /* border: 1px solid red; */
+  padding: 70px 0px;
+  text-align: center;
+  color: white;
+}
+.numbercrad > .ourimpact > .heading12 {
+  font-size: 48px;
+}
+.numbercrad > .cardnumber {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin: 0px 41px;
+}
+.numbercrad > .cardnumber > .livedoc {
+  border: 2px solid rgb(244, 230, 244);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 50%;
+  color: white;
+  gap: 10px;
+}
+.numbercrad > .cardnumber > .livedoc > .icon {
+  /* border: 3px solid sienna; */
+  padding: 15px 20px;
+  background-color: OKLAB(0.999994 0.0000455678 0.0000200868 / 0.2);
+  border-radius: 20px;
+}
+.numbercrad > .cardnumber > .livedoc > .icon > svg {
+  width: 40px;
+  height: 50px;
+}
+.numbercrad > .cardnumber > .livedoc > .heading123 > h1 {
+  font-size: 40px;
+}
+.numbercrad > .cardnumber > .livedoc > .paragraph {
+  width: 95%;
+  text-align: center;
+}
+.numbercrad > .para190 {
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 50px 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.numbercrad > .buttonnumber {
+  text-align: center;
+  /* border: 1px solid pink; */
+  padding-bottom: 50px;
+}
+.numbercrad > .buttonnumber > button {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #61bb46;
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+}
+.invitedinthe213 {
+  background-color: #f9fafb;
+  padding-top: 90px;
+  /* border: 1px solid red; */
+}
+
+.invitedinthe213 > .contextingsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid rgb(176, 12, 39); */
+
+  height: 60vh;
+  /* background-color: #F9FAFB; */
+}
+.invitedinthe213 > .contextingsection > .invite {
+  padding: 10px 13px;
+  /* border: 1px solid red; */
+  width: 12%;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #e8f5e9;
+  color: #4caf50;
+  /* padding-top: 30px; */
+}
+.invitedinthe213 > .contextingsection > .heading345 {
+  margin-top: 20px;
+  /* text-align: center; */
+  font-size: 24px;
+}
+.invitedinthe213 > .contextingsection > .heading345 > h1 > .lastword {
+  color: #46bc22;
+}
+.invitedinthe213 > .contextingsection > .paragraphinvit {
+  text-align: center;
+  width: 60%;
+  margin-top: 20px;
+  color: #737373;
+}
+.invitedinthe213 > .contextingsection > .buttonofinvitedcontext > button {
+  /* padding: ; */
+  padding: 14px 0px;
+  width: 90px;
+  margin-left: 4px;
+  border-radius: 26px;
+  border: none;
+  background-color: #61bb46;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.invitedinthe213 > .backgroundcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  /* border: 2px solid pink; */
+}
+.invitedinthe213 > .backgroundcard > .innercardback {
+  width: 22%;
+  height: 44vh;
+  background-image: url("./image/dastarkhwan.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  /* border-radius: 16px; */
+  /* overflow: visible;  */
+  text-align: center;
+}
+.invitedinthe213 > .backgroundcard > .cleaningimage {
+  background-image: url("./image/ro-plant.png");
+  /* text-align: center; */
+}
+.invitedinthe213 > .backgroundcard > .sbilimage {
+  background-image: url("./image/sbil.png");
+  /* text-align: center; */
+}
+.invitedinthe213 > .backgroundcard > .oldage {
+  background-image: url("./image/old-age-home.png");
+  /* text-align: center; */
+}
+
+.invitedinthe213 > .nextlinecardgap {
+  margin-top: 13px;
+  margin-bottom: 40px;
+}
+.invitedinthe213 > .nextlinecardgap > .orphange {
+  background-image: url("./image/orphanage.jpeg");
+}
+.invitedinthe213 > .nextlinecardgap > .vocationaltraniong {
+  background-image: url("./image/vocational-training.png");
+}
+.invitedinthe213 > .nextlinecardgap > .smit {
+  background-image: url("./image/SMIT.jpeg");
+}
+.invitedinthe213 > .nextlinecardgap > .motherandchild {
+  background-image: url("./image/mother.png");
+}
+
+.invitedinthe213 > .backgroundcard > .innercardback > .butttoncardon {
+  position: absolute;
+  bottom: 21px;
+  /* right: 60px; */
+  width: 100%;
+}
+
+.invitedinthe213 > .backgroundcard > .innercardback > .butttoncardon > button {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: none;
+  color: #61bb46;
+  background-color: #ffff;
+  font-weight: bolder;
+}
+
+.whiteonthat {
+  background-color: white;
+  /* padding-bottom: 40px; */
+}
+.maincontextontaht > .commentsdiv {
+  /* border: 1px solid red; */
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.maincontextontaht > .commentsdiv > .fistcommentcard {
+  border: 4px solid lab(90.952% 0 -0.0000119209);
+  padding: 20px 20px;
+  border-radius: 20px;
+  width: 40%;
+}
+.maincontextontaht > .commentsdiv > .fistcommentcard > .uppercontect {
+  display: flex;
+  /* border: 3px solid blue; */
+  align-items: center;
+  padding: 0px 10px;
+  position: relative;
+}
+.maincontextontaht
+  > .commentsdiv
+  > .fistcommentcard
+  > .uppercontect
+  > .image
+  > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.maincontextontaht
+  > .commentsdiv
+  > .fistcommentcard
+  > .uppercontect
+  > .context
+  > h1 {
+  width: 100%;
+}
+.maincontextontaht
+  > .commentsdiv
+  > .fistcommentcard
+  > .uppercontect
+  > .context
+  > i {
+  color: #fbbf24;
+}
+.maincontextontaht > .commentsdiv > .fistcommentcard > .uppercontect > .days {
+  /* align-self:cenyter; */
+  position: absolute;
+  right: 0;
+}
+.maincontextontaht
+  > .commentsdiv
+  > .fistcommentcard
+  > .uppercontect
+  > .days
+  > svg {
+  color: LAB(35.6337 -1.58697 -10.8425);
+}
+.maincontextontaht
+  > .commentsdiv
+  > .fistcommentcard
+  > .uppercontect
+  > .days
+  > p {
+  font-weight: bolder;
+}
+.maincontextontaht > .commentsdiv > .fistcommentcard > .context {
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 20px;
+  /* border: 1px solid rgb(37, 33, 34); */
+  /* text-align: center; */
+  /* text-decoration: dashed lab(90.952% 0 -0.0000119209); */
+  border-top: 2px solid lab(90.952% 0 -0.0000119209);
+  color: LAB(35.6337 -1.58697 -10.8425);
+}
+
+.blogcontextthat > .mainblogthatonthat {
+  display: flex;
+  gap: 20px;
+  margin: 0px 30px;
+}
+
+.blogcontextthat > .mainblogthatonthat > .blogcontext {
+  width: 30%;
+  height: 64vh;
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .imageblog {
+  width: 100%;
+  height: 50%;
+  background-image: url("./image/1e5bf40f-71ba-4be7-8b4b-a0114e6385fc.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second1 {
+  
+  background-image: url("./image/images.jpeg");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second2 {
+  
+  background-image: url("./image/1.jpeg");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second3 {
+  
+  background-image: url("./image/plANT.jpeg");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second4 {
+  
+  background-image: url("./image/4.png");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second5 {
+  
+  background-image: url("./image/3.png");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second6 {
+  
+  background-image: url("./image/2.png");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second7 {
+  
+  background-image: url("./image/flood-relief-cover.png");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second8 {
+  
+  background-image: url("./image/5.jpeg");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second9 {
+  
+  background-image: url("./image/6.png");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second10 {
+  
+  background-image: url("./image/7.jpeg");
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .second11 {
+  
+  background-image: url("./image/8.jpeg");
+}
+
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .imageblog > button {
+  position: absolute;
+  right: 7px;
+  top: 3px;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #61bb46;
+  color: white;
+  font-weight: bolder;
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .context {
+  margin-top: 20px;
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .context > .timeblog {
+  color: LAB(47.7841 -0.393182 -10.0268);
+}
+
+.blogcontextthat > .mainblogthatonthat > .blogcontext > .context > .heading {
+  font-size: 18px;
+}
+.blogcontextthat
+  > .mainblogthatonthat
+  > .blogcontext
+  > .context
+  > .paragraphcontext {
+  color: LAB(47.7841 -0.393182 -10.0268);
+  font-size: 14px;
+}
+.blogcontextthat > .buttonblog {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 20px;
+}
+.blogcontextthat > .buttonblog > button {
+  padding: 13px 20px;
+  border-radius: 24px;
+  border: none;
+  color: white;
+  background-color: #61bb46;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.newletter > .newsleetrecontext{
+  /* padding-bottom: 40px; */
+  padding: 30px 0px;
+}
+.newletter > .contextemailnewsletter{
+  padding-bottom: 40px;
+}
+.newletter > .newsleetrecontext > .heading128{
+font-size: 36px;
+}
+.newletter >.contextemailnewsletter{
+  color: white;
+  height: 20vh;
+  
+
+}
+.newletter > .contextemailnewsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  /* margin-bottom: 40px; */
+}
+.newletter > .contextemailnewsletter > .inputwithicon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  padding-bottom: 10px;
+}
+.newletter > .contextemailnewsletter > .inputwithicon > i {
+  color: white;
+  font-size: 18px;
+}.newletter > .contextemailnewsletter > .inputwithicon > input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  width: 220px;
+}
+
+.newletter > .contextemailnewsletter > .inputwithicon > input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.newletter > .contextemailnewsletter > button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 30px;
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  color: #5cb838;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.footerned {
+  background-color: #141c2e;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 60px 40px 40px;
+  color: #a9b1c3;
+}
+
+.footerned > .colum {
+  flex: 1;
+}
+
+.footerned > .colum > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerned > .colum > ul > li {
+  margin-bottom: 16px;
+}
+
+/* Logo image */
+.footerned > .colum > ul > li > img {
+  height: 55px;
+}
+
+.footerned > .colum > ul > li > h3 {
+  color: white;
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+
+.footerned > .colum > ul > li > p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.footerned > .colum > ul > li > .icon {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footerned > .colum > ul > li > .icon > .facebbok {
+  background-color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerned > .colum > ul > li > .icon > .facebbok > i {
+  color: #141c2e;
+  font-size: 14px;
+}
+
+.footerned > .colum > ul > li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 15px;
+}
+
+.footerned > .colum > ul > li > i {
+  color: white;
+  font-size: 16px;
+  margin-top: 3px;
+  width: 16px;
+}
+.footerned {
+  flex-wrap: wrap; 
+}
+
+.footerbottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 25px;
+  margin-top: 40px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footerbottom > p {
+  font-size: 14px;
+  color: #a9b1c3;
+  margin: 0;
+}
+
+.footerbottom > .dmcabadge {
+  height: 24px;
+}
+
+.footerbottom > .footerlinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.footerbottom > .footerlinks > a {
+  color: white;
+  text-decoration: none;
+}
+
+.footerbottom > .footerlinks > a:hover {
+  text-decoration: underline;
+}
+
+.footerbottom > .footerlinks > span {
+  color: #a9b1c3;
+}
+
+/* for the laptop which is 1024 but my device is 1440 */
+@media only screen and (max-width: 1024px) {
+  header > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: none; */
+  }
+  section > .left > .imagecontexting {
+    position: absolute;
+    right: 59px;
+    top: 563px;
+    width: 38%;
+    height: 24vh;
+    background-color: #f5efee;
+    opacity: 0.9;
+  }
+  section > .right > .hdeading svg {
+    width: 20%;
+    position: absolute;
+    left: 104px;
+    top: 393px;
+    /* border: 1px solid red; */
+  }
+  section > .right > .welfare {
+    margin: 25px 0px;
+    background-color: OKLAB(0.71128 -0.133634 0.115555 / 0.1);
+    width: 68%;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: #61bb46;
+  }
+  .maincard > .cardimageorcontext {
+    /* border: 1px solid rgb(120, 9, 27); */
+    width: 90%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  .backgroundimagequick > .sadqat {
+    width: 45%;
+    /* border: 1px solid purple; */
+    height: 41vh;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext {
+    width: 57%;
+    /* border: 1px solid red; */
+  }
+  .numbercrad > .cardnumber {
+    flex-wrap: wrap;
+  }
+  .numbercrad > .cardnumber > .livedoc {
+    width: calc(50% - 15px);
+    height: 52vh;
+  }
+
+  .invitedinthe213 > .contextingsection > .invite {
+    width: 17%;
+  }
+  .maincontextontaht
+    > .commentsdiv
+    > .fistcommentcard
+    > .uppercontect
+    > .context {
+    width: 51%;
+  }
+}
+
+/* media query for the tablet but i used that  */
+@media only screen and (max-width: 768px) {
+  /* navbar */
+  header > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: none; */
+  }
+  .logo {
+    width: 140px;
+    height: 30.46px;
+  }
+  #pagessection > li {
+    margin: 2px 1px;
+    /* border: 1px solid pink; */
+  }
+
+  /* herosectio */
+
+  /* herosection */
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section > .left {
+    margin: 30px 0px;
+  }
+  section > .left > .backgroundimage > img {
+    width: 93%;
+    margin-left: 16px;
+  }
+  section > .left > .imagecontexting {
+    position: absolute;
+    right: 108px;
+    top: 410px;
+    width: 74%;
+    height: 24vh;
+    background-color: #f5efee;
+    opacity: 0.9;
+  }
+
+  section > .right {
+    width: 100%;
+    margin-left: 0px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+  }
+  section > .right > .welfare {
+    margin: 0px 0px;
+    background-color: OKLAB(0.71128 -0.133634 0.115555 / 0.1);
+    width: 38%;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  section > .right > .hdeading {
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 42px;
+    /* border: 1px solid red; */
+    width: 45%;
+    text-align: center;
+  }
+  section > .right > .paragraph {
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+  section > .right > .hdeading svg {
+    visibility: hidden;
+  }
+  section > .right > .buttons {
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 10px; */
+    /* border: 1px solid red; */
+    padding: 0px 0px;
+  }
+  section > .right > .buttons > button {
+    padding: 20px 60px;
+    /* border: 10px solid pink; */
+    /* width: 100%; */
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 23px;
+    color: black;
+  }
+  .paragraphinvite {
+    color: LAB(47.7841 -0.393182 -10.0268);
+    /* border: 2px solid rebeccapurple; */
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .cardfortablet {
+    /* display: hidden; */
+    display: none;
+  }
+
+  .main > .maincard {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    /* margin-top: 40px; */
+    margin: 20px 10px;
+  }
+  .maincard1 > .cardimageorcontext {
+    /* border: 1px solid rgb(120, 9, 27); */
+    width: 43%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* margin-left: 20px; */
+  }
+  .cardimageorcontext > .image > img {
+    width: 303px;
+    height: 292px;
+    border-radius: 20px;
+    margin-left: 0px;
+    /* border: 1px solid green; */
+  }
+  .cardimageorcontext > .hearticon > i {
+    position: absolute;
+    top: 1417px;
+    margin-left: 20px;
+    border-radius: 16px;
+  }
+  .backgroundimagequick > .sadqat {
+    width: 44%;
+    /* border: 1px solid purple; */
+    height: 43vh;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext {
+    width: 50%;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext > h1 {
+    font-size: 21px;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext > p {
+    font-size: 12px;
+  }
+  .backgroundimagequick > .sadqat > .contexing > button {
+    padding: 7px 10px;
+    color: #61bb46;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .numbercrad > .cardnumber {
+    flex-wrap: wrap;
+  }
+  .numbercrad > .cardnumber > .livedoc {
+    width: calc(50% - 15px);
+    height: 52vh;
+  }
+  .invitedinthe213 > .contextingsection > .invite {
+    width: 21%;
+  }
+  .invitedinthe213 > .backgroundcard {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 13px;
+  }
+  .invitedinthe213 > .backgroundcard > .innercardback {
+    width: calc(50% - 15px);
+    height: 52vh;
+  }
+  .invitedinthe213 > .nextlinecardgap {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  .maincontextontaht > .commentsdiv > .fistcommentcard > .uppercontect > .days {
+    display: none;
+  }
+.blogcontextthat > .mainblogthatonthat {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 13px;
+}
+.blogcontextthat > .mainblogthatonthat > .blogcontext {
+   width: calc(50% - 15px);
+            height: 79vh;
+}
+.footerned {
+    flex-direction: column;
+  }
+  .footerned > .colum {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+}
+/* media query for the mobile */
+
+@media only screen and (max-width: 429px) {
+  header > nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .uppaernav > ul > li > i,
+  .mobileview {
+    /* visibility: hidden; */
+    display: none;
+    /* border: 1px solid red; */
+  }
+  .logo {
+    width: 100px;
+    height: 30.46px;
+  }
+  ul > li > button {
+    padding: 4px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  #pagessection > li {
+    margin: 2px 1px;
+    /* border: 1px solid pink; */
+  }
+  /* herosection */
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  section > .left {
+    margin: 30px 0px;
+  }
+  section > .left > .backgroundimage > img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  section > .left > .imagecontexting {
+    position: absolute;
+    right: 20px;
+    top: 400px;
+    width: 92%;
+    height: 30vh;
+    background-color: #f5efee;
+    opacity: 0.9;
+  }
+  .imagecontexting {
+    /* flex-wrap: wrap; */
+  }
+
+  section > .right {
+    width: 100%;
+    margin-left: 0px;
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  section > .right > .welfare {
+    margin: -8px 0px;
+    background-color: OKLAB(0.71128 -0.133634 0.115555 / 0.1);
+    width: 70%;
+    align-items: center;
+    padding: 0px 0px;
+  }
+  section > .right > .hdeading {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 42px;
+    /* border: 1px solid red; */
+    width: 80%;
+  }
+  section > .right > .paragraph {
+    font-size: 18px;
+    width: 90%;
+  }
+  section > .right > .hdeading svg {
+    visibility: hidden;
+  }
+  section > .right > .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 1px solid red; */
+    padding: 0px 0px;
+  }
+  section > .right > .buttons > button {
+    padding: 20px 130px;
+    /* border: 10px solid pink; */
+    /* width: 100%; */
+  }
+  .heading {
+    font-size: 17px;
+    color: black;
+  }
+  .cardformobile {
+    /* visibility: hidden; */
+    display: none;
+  }
+  .main > .maincard1 {
+    margin: 20px 10px;
+  }
+  .maincard1 > .cardimageorcontext1 {
+    /* border: 1px solid rgb(120, 9, 27); */
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  .cardimageorcontext > .image > img {
+    width: 376px;
+    height: 397px;
+    border-radius: 20px;
+    margin-left: 0px;
+    /* border: 1px solid green; */
+  }
+  .cardimageorcontext > .hearticon > i {
+    /* border: 2px solid red; */
+    width: 50px;
+    /* height: 50px; */
+    background-color: white;
+    color: #61bb46;
+    /* padding: 10px 10px; */
+    padding: 16px;
+    position: absolute;
+    top: 1646px;
+    margin-left: 20px;
+    border-radius: 16px;
+  }
+  .quickdonatemain > .quickdonatemaincontainer > .heading12 {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .quickdonatemain > .quickdonatemaincontainer > .buttonquick > button {
+    margin-top: 5px;
+    margin-left: 4px;
+  }
+  .backgroundimagequick > .fitra {
+    display: none;
+  }
+  .backgroundimagequick > .sadqat {
+    width: 85%;
+    /* border: 1px solid purple; */
+    height: 43vh;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext > p {
+    display: none;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext > h1 {
+    font-size: 20px;
+  }
+  .backgroundimagequick > .sadqat > .sadqacontext {
+    width: 44%;
+  }
+  .backgroundimagequick > .sadqat > .contexing > button {
+    margin-bottom: 19px;
+    margin-left: 44px;
+    padding: 5px 10px;
+  }
+  .quickdonatemain > .donatebuttonfoe > button {
+    padding: 9px 10px;
+
+    font-size: 16px;
+  }
+
+  .numbercrad > .cardnumber {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 0px 41px;
+  }
+  .numbercrad > .cardnumber > .livedoc {
+    border-radius: 20px;
+    /* height: 50vh; */
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .numbercrad > .ourimpact > .heading12 {
+    font-size: 37px;
+    padding: 0px 10px;
+  }
+  .numbercrad > .ourimpact > .paragraph {
+    padding: 0px 10px;
+  }
+  .numbercrad > .para190 {
+    font-size: 19px;
+  }
+  .invitedinthe213 {
+    padding-top: 200px;
+    /* border: 1px solid red; */
+  }
+  .invitedinthe213 > .contextingsection > .invite {
+    /* padding: 10px 13px; */
+    /* border: 1px solid red; */
+    width: 38%;
+    /* padding-top: 30px; */
+  }
+  .invitedinthe213 > .contextingsection > .heading345 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .invitedinthe213 > .contextingsection > .paragraphinvit {
+    width: 80%;
+  }
+
+  .invitedinthe213 > .contextingsection > .buttonofinvitedcontext {
+    text-align: center;
+  }
+
+  .invitedinthe213 > .mobileforthat {
+    display: block;
+    margin-top: 93px;
+    row-gap: 10px;
+  }
+  .invitedinthe213 > .backgroundcard > .innercardback {
+    width: 94%;
+    height: 44vh;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .invitedinthe213 > .nextlinecardgap {
+    display: block;
+  }
+  .maincontextontaht > .commentsdiv > .mobileview {
+    display: none;
+  }
+  .maincontextontaht > .commentsdiv > .fistcommentcard {
+    /* border: 4px solid lab(90.952% 0 -0.0000119209); */
+    /* padding: 20px 20px; */
+    margin-top: 30px;
+    width: 86%;
+  }
+  .maincontextontaht
+    > .commentsdiv
+    > .fistcommentcard
+    > .uppercontect
+    > .context
+    > p {
+    width: 70%;
+  }
+  .blogcontextthat > .mainblogthatonthat {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px 20px;
+  }
+  .blogcontextthat > .mainblogthatonthat > .blogcontext {
+    width: 100%;
+    height: 85vh;
+  }
+.newletter > .contextemailnewsletter{
+padding-bottom: 0px;
+  flex-wrap:wrap ;
+}
+
+.newletter > .contextemailnewsletter > button {
+      gap: 24px;
+      padding: 14px 60px;
+}
+
+.newletter > .contextemailnewsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* margin-bottom: -2px; */
+}
+
+
+
+}
+@media only screen and (max-width: 320px) {
+  .imagecontexting {
+    padding: 0px 10px;
+  }
+  section > .left > .imagecontexting {
+    position: absolute;
+    right: 13px;
+    top: 466px;
+  }
+  .cardimageorcontext > .image > img {
+    width: 282px;
+    height: 359px;
+    border-radius: 20px;
+    margin-left: 0px;
+    /* border: 1px solid green; */
+  }
+  .cardimageorcontext > .hearticon > i {
+    /* border: 2px solid red; */
+
+    padding: 16px;
+    position: absolute;
+    top: 1908px;
+  }
+  .backgroundimagequick > .sadqat {
+    width: 85%;
+    /* border: 1px solid purple; */
+    height: 32vh;
+  }
+  .backgroundimagequick > .sadqat > .contexing > button {
+    margin-left: 28px;
+  }
+
+  .invitedinthe213 > .mobileforthat {
+    margin-top: 168px;
+  }
+  .maincontextontaht > .commentsdiv > .fistcommentcard {
+    margin-top: 112px;
+    width: 91%;
+  }
+  /* .maincontextontaht > .commentsdiv > .fistcommentcard  > .uppercontect{
+     margin-right: 20px;
+    } */
+  .maincontextontaht > .commentsdiv > .fistcommentcard > .uppercontect > .days {
+    display: none;
+  }
+
+  .invitedinthe213 > .contextingsection > .invite {
+    width: 48%;
+  }
+
+  .invitedinthe213 > .contextingsection {
+    margin-bottom: 20px;
+  }
+      .blogcontextthat > .mainblogthatonthat > .blogcontext {
+        /* width: 100%; */
+        height: 65vh;
+                margin-top: 20px;
+    }
+}
